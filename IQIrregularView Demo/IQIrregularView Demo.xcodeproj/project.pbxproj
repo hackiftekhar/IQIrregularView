@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0848AA517DA2867001390FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0848AA417DA2867001390FE /* UIKit.framework */; };
+		C0848AA717DA2867001390FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0848AA617DA2867001390FE /* Foundation.framework */; };
+		C0848AA917DA2867001390FE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0848AA817DA2867001390FE /* CoreGraphics.framework */; };
+		C0848AAF17DA2868001390FE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C0848AAD17DA2868001390FE /* InfoPlist.strings */; };
+		C0848AB117DA2868001390FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0848AB017DA2868001390FE /* main.m */; };
+		C0848AB517DA2868001390FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0848AB417DA2868001390FE /* AppDelegate.m */; };
+		C0848AB817DA2868001390FE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0848AB717DA2868001390FE /* ViewController.m */; };
+		C0848ABB17DA2868001390FE /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0848AB917DA2868001390FE /* ViewController.xib */; };
+		C0848AC317DA288C001390FE /* IQIrregularView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0848AC217DA288C001390FE /* IQIrregularView.m */; };
+		C0848AC517DA28B0001390FE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0848AC417DA28B0001390FE /* QuartzCore.framework */; };
+		C0848AC817DA3D8A001390FE /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C0848AC717DA3D8A001390FE /* UIColor+Extension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C0848AA017DA2867001390FE /* IQIrregularView Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IQIrregularView Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0848AA417DA2867001390FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C0848AA617DA2867001390FE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C0848AA817DA2867001390FE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C0848AAC17DA2868001390FE /* IQIrregularView Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IQIrregularView Demo-Info.plist"; sourceTree = "<group>"; };
+		C0848AAE17DA2868001390FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C0848AB017DA2868001390FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C0848AB217DA2868001390FE /* IQIrregularView Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IQIrregularView Demo-Prefix.pch"; sourceTree = "<group>"; };
+		C0848AB317DA2868001390FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C0848AB417DA2868001390FE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C0848AB617DA2868001390FE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C0848AB717DA2868001390FE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C0848ABA17DA2868001390FE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		C0848AC117DA288C001390FE /* IQIrregularView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IQIrregularView.h; path = "IQIrregularView Demo/IQIrregularView.h"; sourceTree = "<group>"; };
+		C0848AC217DA288C001390FE /* IQIrregularView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IQIrregularView.m; path = "IQIrregularView Demo/IQIrregularView.m"; sourceTree = "<group>"; };
+		C0848AC417DA28B0001390FE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C0848AC617DA3D8A001390FE /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		C0848AC717DA3D8A001390FE /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0848A9D17DA2867001390FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0848AC517DA28B0001390FE /* QuartzCore.framework in Frameworks */,
+				C0848AA517DA2867001390FE /* UIKit.framework in Frameworks */,
+				C0848AA717DA2867001390FE /* Foundation.framework in Frameworks */,
+				C0848AA917DA2867001390FE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0848A9517DA2867001390FE = {
+			isa = PBXGroup;
+			children = (
+				C0848AE017DA6599001390FE /* IQIrregularView */,
+				C0848AAA17DA2867001390FE /* IQIrregularView Demo */,
+				C0848AA317DA2867001390FE /* Frameworks */,
+				C0848AA117DA2867001390FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0848AA117DA2867001390FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0848AA017DA2867001390FE /* IQIrregularView Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0848AA317DA2867001390FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0848AC417DA28B0001390FE /* QuartzCore.framework */,
+				C0848AA417DA2867001390FE /* UIKit.framework */,
+				C0848AA617DA2867001390FE /* Foundation.framework */,
+				C0848AA817DA2867001390FE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0848AAA17DA2867001390FE /* IQIrregularView Demo */ = {
+			isa = PBXGroup;
+			children = (
+				C0848AB317DA2868001390FE /* AppDelegate.h */,
+				C0848AB417DA2868001390FE /* AppDelegate.m */,
+				C0848AB617DA2868001390FE /* ViewController.h */,
+				C0848AB717DA2868001390FE /* ViewController.m */,
+				C0848AB917DA2868001390FE /* ViewController.xib */,
+				C0848AAB17DA2868001390FE /* Supporting Files */,
+				C0848AC617DA3D8A001390FE /* UIColor+Extension.h */,
+				C0848AC717DA3D8A001390FE /* UIColor+Extension.m */,
+			);
+			path = "IQIrregularView Demo";
+			sourceTree = "<group>";
+		};
+		C0848AAB17DA2868001390FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0848AAC17DA2868001390FE /* IQIrregularView Demo-Info.plist */,
+				C0848AAD17DA2868001390FE /* InfoPlist.strings */,
+				C0848AB017DA2868001390FE /* main.m */,
+				C0848AB217DA2868001390FE /* IQIrregularView Demo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0848AE017DA6599001390FE /* IQIrregularView */ = {
+			isa = PBXGroup;
+			children = (
+				C0848AC117DA288C001390FE /* IQIrregularView.h */,
+				C0848AC217DA288C001390FE /* IQIrregularView.m */,
+			);
+			name = IQIrregularView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0848A9F17DA2867001390FE /* IQIrregularView Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0848ABE17DA2868001390FE /* Build configuration list for PBXNativeTarget "IQIrregularView Demo" */;
+			buildPhases = (
+				C0848A9C17DA2867001390FE /* Sources */,
+				C0848A9D17DA2867001390FE /* Frameworks */,
+				C0848A9E17DA2867001390FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IQIrregularView Demo";
+			productName = "IQIrregularView Demo";
+			productReference = C0848AA017DA2867001390FE /* IQIrregularView Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0848A9717DA2867001390FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Canopus;
+			};
+			buildConfigurationList = C0848A9A17DA2867001390FE /* Build configuration list for PBXProject "IQIrregularView Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C0848A9517DA2867001390FE;
+			productRefGroup = C0848AA117DA2867001390FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0848A9F17DA2867001390FE /* IQIrregularView Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0848A9E17DA2867001390FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0848AAF17DA2868001390FE /* InfoPlist.strings in Resources */,
+				C0848ABB17DA2868001390FE /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0848A9C17DA2867001390FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0848AB117DA2868001390FE /* main.m in Sources */,
+				C0848AB517DA2868001390FE /* AppDelegate.m in Sources */,
+				C0848AB817DA2868001390FE /* ViewController.m in Sources */,
+				C0848AC317DA288C001390FE /* IQIrregularView.m in Sources */,
+				C0848AC817DA3D8A001390FE /* UIColor+Extension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C0848AAD17DA2868001390FE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0848AAE17DA2868001390FE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C0848AB917DA2868001390FE /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0848ABA17DA2868001390FE /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0848ABC17DA2868001390FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C0848ABD17DA2868001390FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0848ABF17DA2868001390FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IQIrregularView Demo/IQIrregularView Demo-Prefix.pch";
+				INFOPLIST_FILE = "IQIrregularView Demo/IQIrregularView Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C0848AC017DA2868001390FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IQIrregularView Demo/IQIrregularView Demo-Prefix.pch";
+				INFOPLIST_FILE = "IQIrregularView Demo/IQIrregularView Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0848A9A17DA2867001390FE /* Build configuration list for PBXProject "IQIrregularView Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0848ABC17DA2868001390FE /* Debug */,
+				C0848ABD17DA2868001390FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0848ABE17DA2868001390FE /* Build configuration list for PBXNativeTarget "IQIrregularView Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0848ABF17DA2868001390FE /* Debug */,
+				C0848AC017DA2868001390FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0848A9717DA2867001390FE /* Project object */;
+}
