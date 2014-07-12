@@ -3,7 +3,7 @@
 //  IQIrregularView Demo
 //
 //  Created by Mohd Iftekhar Qurashi on 06/09/13.
-//  Copyright (c) 2013 Canopus. All rights reserved.
+//  Copyright (c) 2013 Iftekhar. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
